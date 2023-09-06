@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 import ru.geraskindenis.models.Account;
 import ru.geraskindenis.repositories.AccountRepository;
 import ru.geraskindenis.services.exceptions.AccountNotFoundException;
-import ru.geraskindenis.services.exceptions.TransferServiceException;
 
 @Service
 public class TransferService {
